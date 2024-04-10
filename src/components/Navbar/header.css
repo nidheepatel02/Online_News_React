@@ -1,0 +1,39 @@
+nav{
+    position: fixed;
+    background-color: #010714;
+}
+
+nav .nav-link{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 3rem;
+    font-style: italic;
+    cursor: pointer;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s*var(--i));
+}
+
+.nav-link:hover{
+    color: #59B2F4;
+}
+.logo {
+    position: relative;
+    background-color: #010714;
+    color: brown;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+    animation: slideRight 1s ease forwards;
+} 
+
+@keyframes slideTop{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
