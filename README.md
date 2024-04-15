@@ -1,4 +1,4 @@
-# Online_News 
+# Online News 
 
 ## Setup Project
 1. Clone the Repository and open it on Visual Studio Code.
